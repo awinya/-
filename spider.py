@@ -1,6 +1,6 @@
 import requests
 import json
-# 账户管家数据获取
+# 账户管家数据获取,可获得实时点击量和当日消费
 url='https://api.baidu.com/json/sms/service/LiveReportService/getAccountLiveData'
 data={
     "header": {
